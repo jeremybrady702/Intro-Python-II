@@ -7,7 +7,6 @@ def guessing_game():
 
   while True:
     guess = input("Input your guess: ")
-    
     try:
       guess = int(guess)
     except ValueError:
